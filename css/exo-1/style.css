@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Pour que ça soit centrer sur la page */
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#layout{
+    background: rgb(19, 19, 19);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.gauche{
+    text-align: left;
+}
+
+.droite{
+    text-align: right;
+}
+
+h2,
+p,
+button{
+    color: #fff;
+}
+
+button{
+    background: rgb(59, 59, 204);
+    cursor: pointer;
+}

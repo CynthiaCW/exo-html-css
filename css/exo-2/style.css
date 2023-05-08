@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* paragraphes descendants de la classe "article" */
+.article p{
+    padding-left: 20px;
+}
+
+/* paragraphes situé directement après un h2 */
+h2+p{
+    background: yellow;
+}
+
+/* paragraphes adjacents du titre "h2" */
+h2~p{
+    border: 1px solid black;
+}
+
+/* paragraphes fils des éléments "li" */
+li>p{
+    color: green;
+}

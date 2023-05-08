@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* ----- CSS COMMONS ----- */
+body{
+    margin: 0;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content{
+    margin-bottom: 15px;
+}
+/* ----- END ----- */
+
+
+/* ----- CSS EXERCICE 5 ----- */
+
+table,
+th,
+td, 
+tr{
+    border: 1px solid black;
+}
+
+tbody>tr>td{
+    text-align: center;
+}
+
+/* ----- END ----- */
+
+/* ----- CSS EXERCICE 6 ----- */
+caption{
+    padding: 10px;
+    caption-side: top;
+}
+/* ----- END ----- */

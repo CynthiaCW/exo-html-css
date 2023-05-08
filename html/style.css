@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* ----- CSS COMMONS ----- */
+body{
+    margin: 0;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content{
+    margin-bottom: 15px;
+}
+/* ----- END ----- */
+
+
+/* ----- CSS EXERCICE 1 ----- */
+ul{
+    margin-bottom: 15px;
+}
+
+ul>li{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.copyright{
+    font-size: smaller;
+}
+/* ----- END ----- */
+
+/* ----- CSS EXERCICE 2 ----- */
+
+#exo-one{
+    padding: 0 30px 0 0;
+}
+
+.border-bottom{
+
+    border-bottom: 1.5px dashed black;
+}
+
+ul>.list{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+/* ----- END ----- */
+
+/* ----- CSS EXERCICE 3 ----- */
+
+.anchors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anchor-content{
+    margin-bottom: 30px;
+}
+
+/* ----- END ----- */
+
+/* ----- CSS EXERCICE 4 ----- */
+
+caption{
+    padding: 10px;
+    caption-side: top;
+}
+
+table,
+th,
+td, 
+tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody>tr>th{
+    text-align: left;
+}
+
+tbody>tr:last-child{
+    color: blue;
+}
+
+/* ----- END ----- */

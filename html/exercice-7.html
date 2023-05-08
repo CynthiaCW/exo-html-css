@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo</title>
+    <link rel="stylesheet" href="exo-six.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Formulaire d'inscription</h1>
+        <form action="" method="get" class="form-example">
+            <div class="form-item">
+                <label for="name">Nom</label>
+                <div class="field">
+                    <input type="text" name="name" id="name" placeholder="saisir votre nom" required>
+                </div>  
+            </div>
+            <div class="form-item">
+                <label for="name">Prénom</label>
+                <div class="field">
+                    <input type="text" name="surname" id="surname" placeholder="saisir votre prénom" required>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="email">Email</label>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="saisir votre email" required>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="sexe">Sexe</label>
+                <div class="field">
+                    <label>Masculin<input type="radio" name="radio"></label>
+                    <label>Féminin<input type="radio" name="radio"></label>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="image">Photo</label>
+                <div class="field">
+                    <input type="file" id="picture" name="picture" accept="image/png, image/jpeg">
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="countries">Pays</label>
+                <div class="field">
+                    <select name="countrie" id="countrie-select">
+                        <option value="france">France</option>
+                        <option value="germany">Allemagne</option>
+                        <option value="spain">Espagne</option>
+                        <option value="sweden">Suède</option>
+                        <option value="italy">Italie</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="image">Les langages préférés</label>
+                <div class="field">
+                    <select name="languages" id="languages-select" multiple>
+                        <option value="java">Java</option>
+                        <option value="c">C</option>
+                        <option value="c++">C++</option>
+                        <option value="php">PHP</option>
+                        <option value="css">CSS</option>
+                    </select>
+                    <span>(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)</span>
+                </div>
+            </div>
+            <div class="form-item">
+                <label for="image">Domaines d'activités</label>
+                <input type="checkbox" name="domain" id="domainInfo">
+                <label for="domainInfo">Informatique</label>
+                <input type="checkbox" name="domain" id="domainManage">
+                <label for="domainManage">Gestion</label>
+                <input type="checkbox" name="domain" id="domainPedagogy">
+                <label for="domainPedagogy">Pédagogie</label>
+            </div>
+            <div class="form-item">
+                <input type="submit" value="Envoyer">
+                <input type="submit" value="Annuler">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

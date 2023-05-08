@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* CSS EXERCICE 1 */
+
+.link-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-size: 14px;
+    color: #7E3661;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #7E3661;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 20px 20px 0;
+}
+
+/* Ordre LVHA */
+.link:visited{
+    color: #FCB941;
+}
+
+.link:hover{
+    background: #7E3661;
+    color: white;
+    transition: all 600ms ease;
+}
+
+.link:active{
+    font-size: 1.5em;
+}
+
+/* -------------------------- */
+
+
+/* CSS EXERCICE 2 */
+
+caption{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+table{
+    border: none;
+}
+
+/* J'ajoute une bordure pour que ca ressemble quand meme à la capture */
+th,
+tr,
+td
+{
+    border: 1px solid rgb(99, 99, 99);
+}
+
+th, 
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+tr:first-child > th:nth-child(2) {
+    font-size: 2em;
+    color: rgb(64, 64, 237);
+}
+
+tbody tr:nth-child(even) {
+    background: #FCB941;
+}
+
+tbody tr:nth-child(odd) {
+    background: #F1654C;
+}
+
+tr:nth-child(odd) td:first-child{
+    background: #7E3661;
+    color: #fff;
+}
+
+tr:nth-child(even) td:first-child{
+    background: #888888;
+    color: #fff;
+}
+
+tr:nth-child(odd) td:last-child{
+    background: #8870FF;
+    color: #fff;
+}
+
+th:last-child[rowspan] {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+/* -------------------------- */
